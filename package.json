@@ -1,0 +1,27 @@
+{
+  "name": "react-akshay",
+  "version": "1.0.0",
+  "description": "react with akshay s",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinan-moh/react-namasthe.git"
+  },
+  "author": "sinan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sinan-moh/react-namasthe/issues"
+  },
+  "homepage": "https://github.com/sinan-moh/react-namasthe#readme",
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  }
+}
