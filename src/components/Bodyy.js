@@ -1,6 +1,7 @@
 import ResCondiner from "./ResCondiner";
 import reslist from "../utils/mockdata";
 import { useState , useEffect} from "react";
+import Shimmer from "./Shimmer/Shimmer";
 
 
 let Bodyy = () => {
@@ -15,6 +16,11 @@ let Bodyy = () => {
       console.log(json);
       setreslists(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
       
+      }
+      if(reslists.length===0){
+        return(
+          <Shimmer />
+        )
       }
   return (
     <div className="Body">
